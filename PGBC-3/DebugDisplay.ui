@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DebugDisplay</class>
+ <widget class="QMainWindow" name="DebugDisplay">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>438</width>
+    <height>660</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>DebugDisplay</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupCPU">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>221</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>CPU</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2" columnstretch="0,0,0,0">
+     <property name="horizontalSpacing">
+      <number>10</number>
+     </property>
+     <item row="4" column="2">
+      <widget class="QLabel" name="CPU_N_Left">
+       <property name="text">
+        <string>N:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLabel" name="CPU_N_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="CPU_AF_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLabel" name="CPU_BC_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="CPU_DE_Left">
+       <property name="text">
+        <string>DE:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="CPU_AF_Left">
+       <property name="text">
+        <string>AF:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="CPU_BC_Left">
+       <property name="text">
+        <string>BC:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="CPU_Z_Left">
+       <property name="text">
+        <string>Z:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="CPU_Z_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QLabel" name="CPU_CY_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLabel" name="CPU_CY_Left">
+       <property name="text">
+        <string>CY:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="CPU_PC_Left">
+       <property name="text">
+        <string>PC:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="CPU_IME_Left">
+       <property name="text">
+        <string>IME:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="CPU_Clock_Left">
+       <property name="text">
+        <string>Clock:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="CPU_SP_Left">
+       <property name="text">
+        <string>SP:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="CPU_PC_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="CPU_Clock_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="CPU_SP_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="CPU_IME_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="CPU_DE_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLabel" name="CPU_HL_Left">
+       <property name="text">
+        <string>HL:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QLabel" name="CPU_HL_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="CPU_H_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="CPU_H_Left">
+       <property name="text">
+        <string>H:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupPPU">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>10</y>
+      <width>191</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>PPU</string>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="4" column="0">
+      <widget class="QLabel" name="PPU_View_X_Left">
+       <property name="text">
+        <string>View X:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="PPU_View_X_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="PPU_Clock_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="PPU_State_Left">
+       <property name="text">
+        <string>State:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="PPU_State_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="PPU_Line_Left">
+       <property name="text">
+        <string>Line:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="PPU_Line_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="PPU_Clock_Left">
+       <property name="text">
+        <string>Clock:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="PPU_View_Y_Left">
+       <property name="text">
+        <string>View Y:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="PPU_View_Y_Right">
+       <property name="text">
+        <string>n/a</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupVRAM">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>422</width>
+      <height>457</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>VRAM</string>
+    </property>
+    <widget class="MyOpenGL_VRAM_Debug" name="OpenGLVRAM" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>16</y>
+       <width>286</width>
+       <height>430</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>286</width>
+       <height>430</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtnVRAMbank0">
+     <property name="geometry">
+      <rect>
+       <x>321</x>
+       <y>19</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bank 0</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushBtnVRAMbank1">
+     <property name="geometry">
+      <rect>
+       <x>321</x>
+       <y>56</y>
+       <width>75</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bank 1</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionRun"/>
+   <addaction name="actionPause"/>
+   <addaction name="actionStep"/>
+   <addaction name="actionRunToFrame"/>
+  </widget>
+  <action name="actionStep">
+   <property name="icon">
+    <iconset>
+     <normaloff>Resources/step_icon.png</normaloff>Resources/step_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Step</string>
+   </property>
+  </action>
+  <action name="actionRunToFrame">
+   <property name="icon">
+    <iconset>
+     <normaloff>Resources/frame_icon.png</normaloff>Resources/frame_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Frame</string>
+   </property>
+  </action>
+  <action name="actionRun">
+   <property name="icon">
+    <iconset>
+     <normaloff>Resources/run_icon.png</normaloff>Resources/run_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Run</string>
+   </property>
+  </action>
+  <action name="actionPause">
+   <property name="icon">
+    <iconset>
+     <normaloff>Resources/pause_icon.png</normaloff>Resources/pause_icon.png</iconset>
+   </property>
+   <property name="text">
+    <string>Pause</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>MyOpenGL_VRAM_Debug</class>
+   <extends>QWidget</extends>
+   <header>myopengl_vram_debug.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

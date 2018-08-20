@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainDisplay.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MyOpenGLWidget.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineThread.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBoy.cpp">
+      <Filter>Source Files\GB</Filter>
+    </ClCompile>
+    <ClCompile Include="Cartridge_Info.cpp">
+      <Filter>Source Files\MMU</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManagementUnit.cpp">
+      <Filter>Source Files\MMU</Filter>
+    </ClCompile>
+    <ClCompile Include="CentralProcessingUnit.cpp">
+      <Filter>Source Files\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelProcessingUnit.cpp">
+      <Filter>Source Files\PPU</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDisplay.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MyOpenGL_VRAM_Debug.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="VRAM_Debug.cpp">
+      <Filter>Source Files\VRAM_DBG</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{12374a67-4b7d-4faa-bf9e-5874b7d74c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{c9909474-1bea-49f1-aca6-1876f54b22cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PPU">
+      <UniqueIdentifier>{57d77870-9d85-490f-9310-edec2eaa3393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MMU">
+      <UniqueIdentifier>{f34df34c-8727-4ff4-a397-92570320e1b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MMU">
+      <UniqueIdentifier>{048d74fd-b4c0-4016-bb32-957cf372436d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GB">
+      <UniqueIdentifier>{1393d47f-c311-4ff0-804a-3174611ac383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GB">
+      <UniqueIdentifier>{111e8c11-eeb3-48d8-a575-4b5d9911c348}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CPU">
+      <UniqueIdentifier>{3e8e85ee-921c-43a1-9592-27fa7364caa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CPU">
+      <UniqueIdentifier>{1e6c6bd2-0ef8-463e-a7e7-28115fbd3291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PPU">
+      <UniqueIdentifier>{5b6459d0-cf6a-4a9a-8902-0fc5bd752ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VRAM_DBG">
+      <UniqueIdentifier>{04d603b2-f379-4dbe-90b4-284588f3770f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VRAM_DBG">
+      <UniqueIdentifier>{564befec-a2a0-49df-8eb8-4e16b43e35ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MainDisplay.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="MyOpenGLWidget.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="EngineThread.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="DebugDisplay.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+    <QtMoc Include="MyOpenGL_VRAM_Debug.h">
+      <Filter>Header Files\UI</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MainDisplay.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MyOpenGLWidget.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="DebugDisplay.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="MyOpenGL_VRAM_Debug.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MainDisplay.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VertexShader.glsl">
+      <Filter>Source Files\PPU</Filter>
+    </None>
+    <None Include="FragmentShader.glsl">
+      <Filter>Source Files\PPU</Filter>
+    </None>
+    <None Include="FragmentShaderVRAMdbg.glsl">
+      <Filter>Source Files\VRAM_DBG</Filter>
+    </None>
+    <None Include="VertexShaderVRAMdbg.glsl">
+      <Filter>Source Files\VRAM_DBG</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameBoy.h">
+      <Filter>Header Files\GB</Filter>
+    </ClInclude>
+    <ClInclude Include="Cartridge_Info.h">
+      <Filter>Header Files\MMU</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory_Info.h">
+      <Filter>Header Files\MMU</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManagementUnit.h">
+      <Filter>Header Files\MMU</Filter>
+    </ClInclude>
+    <ClInclude Include="Reg_Info.h">
+      <Filter>Header Files\MMU</Filter>
+    </ClInclude>
+    <ClInclude Include="CentralProcessingUnit.h">
+      <Filter>Header Files\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionSet.h">
+      <Filter>Header Files\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelProcessingUnit.h">
+      <Filter>Header Files\PPU</Filter>
+    </ClInclude>
+    <ClInclude Include="VRAM_Debug.h">
+      <Filter>Header Files\VRAM_DBG</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
